@@ -1,0 +1,12 @@
+﻿Verificacion,Antes,Despues,Nota
+Líneas de servicio MSRV5 (crudo),1041,944,Líneas que quedan en el detalle 2026
+Líneas MSRV5 repetidas (T0),3,0,Se conserva una por solped-posición-servicio
+Solped MSRV5 (crudo),977,887,Una fila por solped en la tabla final
+Solped duplicadas en la tabla final,,0,Debe ser 0
+Solped sin OM válida (T1),3,0,Excluidas
+Solped sin material en MB51 (T5b),16,0,Excluidas: material pagado con otras OM
+OM compartidas por varias solped (T6),1,,Material repartido
+Solped con más de un pedido,0,0,Control
+Servicios fuera de los 19 códigos,0,0,Control
+"Nulos en columnas clave (Solped, OM, TIPO, Valor_Total)",,0,Debe ser 0
+Solped en meses maduros (base del modelo),,770,Completitud >= 90%
